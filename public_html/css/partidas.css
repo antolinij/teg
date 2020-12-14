@@ -1,0 +1,249 @@
+body{
+	background:#F0FFF0;
+	
+}
+table{
+	position:relative;
+}
+#cuerpo{
+	position:relative;
+	border:1px solid #000;
+	width:1080px;
+	height:720px;
+	background-color:#688358;
+	overflow:hidden;
+	box-shadow:  0px 5px 20px 5px #8A6553;
+	top: 40px;
+}
+
+#lista_usuarios{
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	width: 250px;
+	height: 400px;
+	background-color: #FFF;
+
+}
+#crear_partida{
+	position: absolute;
+	top: 150px;
+	left: 190px;
+	border: 1px solid #000;
+	width: 700px;
+	height: 500px;
+	background-color: #FFF;
+	box-shadow:  0px 0px 10px 3px #000;
+}
+#crear_partida #partida_nueva{
+	position: absolute;
+	top:80px;
+	left: 200px;
+	width:300px;
+	height: 180px;
+	border: 1px solid #000;
+	background-color: #F0FFF0;
+}
+#unirse_partida{
+	position: absolute;
+	top: 120px;
+	left: 190px;
+	border: 1px solid #000;
+	width: 700px;
+	height: 500px;
+	background-color: #FFF;
+	box-shadow:  0px 0px 10px 3px #000;
+}
+#unirse_partida input{
+	border: 1px solid #82C0F4;
+	height: 20px;
+	width:150px;
+}
+#crear_partida input{
+	border: 1px solid #82C0F4;
+	height: 20px;
+	width:150px;
+}
+
+#datos_usuario{
+	top: 5px;
+	right: 10px;
+}
+.datos_usuario{
+	position:absolute;
+	background-color: #FFF;
+	width: 200px;
+	height: 50px;
+}
+.datos_usuario img{
+	position:absolute;
+	border: solid 1px #000;
+	top: 5px;
+	left: 5px;
+	width: 40;
+	height: 40px;
+}
+.datos_usuario img{
+	position:absolute;
+	border: solid 1px #000;
+	top: 5px;
+	left: 5px;
+	width: 40;
+	height: 40px;
+}
+.datos_usuario a{
+	position:absolute;
+	top: 25px;
+	left: 55px
+}
+/*
+	PARTIDA EN CURSO
+*/
+.boton{
+	position:relative;
+	border: none;
+	background-color: #FFF;
+	width: 200px;
+	height: 75px;
+	cursor: pointer;
+	font-size: 20;
+	font-family: Arial;
+	box-shadow:  -1px 1px 10px 4px #000;
+}
+.boton:hover{
+	box-shadow: inset -1px 1px 10px 2px #000;
+	background-color: #FEF7CF;
+}
+h2{
+	position: absolute;
+	top: 200px;
+	left: 420px;
+	font-size: 30px;
+}
+#reanudar {
+	position:absolute;
+	top:400px;
+	right:200px;	
+}
+#abandonar {
+	position:absolute;
+	top:400px;
+	left: 200px;	
+}
+#reanudar a{
+	position:absolute;
+	top:25px;
+	left: 20px;	
+}
+
+#abandonar a{
+	position:absolute;
+	top:15px;
+	left: 0px;	
+}
+
+
+
+/************BARRA SUPERIOR************/
+#barra_superior a:link{
+	top: 10px;
+	color: #000;
+	z-index: 10;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#barra_superior a:visited{
+	text-decoration: none;
+}
+#barra_superior a:active{
+	text-decoration: none;
+}
+
+#barra_superior{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-width: 1500px;
+	height: 43px;
+	background-color: #ccc;
+	border-bottom: 1px solid #000;
+}
+.fb-like{
+	position: absolute;
+	top: 9px;
+	left: 20px;
+	z-index: 10;
+}
+
+#opciones{
+	position:absolute;
+	top: 2px;
+	right:10px;
+	width: 40px;
+	height: 40px;
+	background-image:url(../fondos/salir.png);
+	cursor: pointer;
+	z-index: 10;
+}
+
+#color_fondo{
+	position: absolute;
+	top: 10px;
+	right: 200px;
+	width: 140px;
+	height: 25px;
+	border: 1px solid #cad4e7;
+	background-color: #eceef5;
+	z-index: 10;
+}
+#color_fondo:hover{
+	top: 10px;
+	right: 140px;
+	width: 270px;
+	height: 155px;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #000;
+	box-shadow:  0px 0px 10px 1px #000;
+}
+
+#color_fondo:hover a{
+	position: absolute;
+	bottom: 125px;
+	left: 5px;
+}
+#color_fondo:hover input{
+	position: absolute;
+	bottom: 130px;
+	right: 5px;
+	visibility: visible;
+}
+#color_fondo a{
+	position: absolute;
+	bottom: 2px;
+	left: 20px;
+}
+
+#color_fondo div{
+	position: relative;
+	margin-top: 30px;
+	visibility: hidden;
+	background: #82C0F4;
+	border: 1px solid #000;
+}
+#color_fondo input{
+	position: relative;
+	margin-top: 30px;
+	visibility: hidden;
+	background: #82C0F4;
+	border: 1px solid #000;
+}
+#color_fondo:hover div{
+	visibility: visible;
+	width: 200px;
+	left: 40px;
+}
+
+/************************/

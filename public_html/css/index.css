@@ -1,0 +1,174 @@
+body{
+	background:#F0FFF0;
+	
+}
+table{
+	position:relative;
+}
+#izquierda{
+	position: absolute;
+	left: 40px;
+	top:40px;
+	width:160px;
+	height:720px;
+
+}
+#derecha{
+	position: absolute;
+	right:40px;
+	top:40px;
+	width:160px;
+	height:720px;
+
+}
+#cuerpo{
+	position:relative;
+	border:1px solid #000;
+	border-top:none;
+	width:1080px;
+	height:auto;
+	background-color:#688358;	
+	overflow:hidden;
+	/*box-shadow:  0px 5px 20px 5px #0c0c0c;*/
+	top: 30px;
+}
+
+#logo{
+	position: relative;
+	border: none;
+	width: 250px;
+	height: 50px;
+	color: #000;
+	font-size: 30px;
+	font-family: "Times New Roman";	
+	top: 15px;
+	left: 70px;
+	z-index: 1;
+}
+
+
+#tabs{
+	position: relative;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	left: 0px;
+	width: 880px;
+	height: auto;
+}
+#tabs-1, #tabs-2, #tabs-3{
+background-color: #BDCCB6;
+}
+#tabs li{
+	margin-left: 90px;
+
+}
+.contenedor{
+	position: relative;
+	top: 20px;
+	height: 400px;
+	overflow: auto;
+	background-color: #BDCCB6;
+}
+/************BARRA SUPERIOR************/
+#barra_superior a:link{
+	top: 10px;
+	color: #000;
+	z-index: 10;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#barra_superior a:visited{
+	text-decoration: none;
+}
+#barra_superior a:active{
+	text-decoration: none;
+}
+
+#barra_superior{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-width: 1500px;
+	height: 43px;
+	background-color: #ccc;
+	border-bottom: 1px solid #000;
+}
+.fb-like{
+	position: absolute;
+	top: 9px;
+	left: 20px;
+	z-index: 10;
+}
+
+#opciones{
+	position:absolute;
+	top: 2px;
+	right:10px;
+	width: 40px;
+	height: 40px;
+	background-image:url(fondos/salir.png);
+	cursor: pointer;
+	z-index: 10;
+}
+
+#color_fondo{
+	position: absolute;
+	top: 10px;
+	right: 200px;
+	width: 140px;
+	height: 25px;
+	border: 1px solid #cad4e7;
+	background-color: #eceef5;
+	z-index: 10;
+}
+#color_fondo:hover{
+	top: 10px;
+	right: 140px;
+	width: 270px;
+	height: 155px;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #000;
+	box-shadow:  0px 0px 10px 1px #000;
+}
+
+#color_fondo:hover a{
+	position: absolute;
+	bottom: 125px;
+	left: 5px;
+}
+#color_fondo:hover input{
+	position: absolute;
+	bottom: 130px;
+	right: 5px;
+	visibility: visible;
+}
+#color_fondo a{
+	position: absolute;
+	bottom: 2px;
+	left: 20px;
+}
+
+#color_fondo div{
+	position: relative;
+	margin-top: 30px;
+	visibility: hidden;
+	background: #82C0F4;
+	border: 1px solid #000;
+}
+#color_fondo input{
+	position: relative;
+	margin-top: 30px;
+	visibility: hidden;
+	background: #82C0F4;
+	border: 1px solid #000;
+}
+#color_fondo:hover div{
+	visibility: visible;
+	width: 200px;
+	left: 40px;
+}
+
+/************************/

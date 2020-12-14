@@ -1,0 +1,63 @@
+/***********Chat*********/
+#chat{
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	height: 65px;
+	width: 260px;
+	z-index: 10;
+}
+#chat textarea{
+	position: absolute;
+	bottom: 7px;
+	right: 10px;
+	border: 1px solid #000;
+	height: 20px;
+	width: 250px;
+	visibility: hidden;	
+	resize: none;
+	overflow-x: hidden;
+	z-index: 1;
+}
+#ultimo_mensaje{
+	position: absolute;
+	bottom: 2px;
+	right: 10px;
+	height: 60px;
+	width: 250px;
+	background-color: #FFF;
+	border: 2px solid #000;
+	overflow: hidden;
+}
+/*esta es la imagen del que escribe*/
+#ultimo_mensaje div{
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	border: none;
+	height: 50px;
+	width: 50px;
+	background-color: #FFF;
+	visibility: visible;	
+}
+#ultimo_mensaje a{
+	position: absolute;
+	top: 5px;
+	left: 60px;
+	visibility: visible;
+}
+#todos_los_mensajes{
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+	border: 1px solid #000;
+	border-bottom: none;
+	height: 315px;
+	width: 250px;
+	background-color: #FFF;
+	overflow-y: auto;
+	overflow-x: hidden;
+	visibility: hidden;
+}
+
+/**********Chat*********/

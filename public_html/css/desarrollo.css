@@ -1,0 +1,51 @@
+#desarrollo{
+	position:absolute;
+	border:none;
+	bottom:0px;
+	width:800px;
+	height:200px;
+	overflow:hidden;
+}
+/****OCULTA O HACE APARECER DISTINTAS COSAS ABAJO A LA IZQUIERDA***/
+#desarrollo_otros{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	height: 155px;
+	width: 430px;
+	visibility: hidden;
+}
+
+#desarrollo_incorporar{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	height: 155px;
+	width: 430px;
+	background-color: #fff;
+	visibility: visible;
+	box-shadow: inset 0px 0px 20px 0px #8A6553;
+}
+#desarrollo_incorporar h3{
+	position: absolute;
+	left: 10px;
+}
+#desarrollo_incorporar #desarrollo_incorporar_derecha {
+	position: absolute;
+	top: 30px;
+	left: 220px;
+}
+
+#desarrollo_incorporar #desarrollo_incorporar_izquierda {
+	position: absolute;
+	top: 50px;
+	left: 40px;
+}
+#desarrollo_incorporar #desarrollo_incorporar_derecha a{
+	position: relative;
+	display: block;
+}
+#desarrollo_incorporar #desarrollo_incorporar_izquierda a{
+	position: relative;
+	display: block;
+}

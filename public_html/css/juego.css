@@ -1,0 +1,747 @@
+@charset "utf-8";
+/* CSS Document */
+
+#izquierda{
+	position: absolute;
+	left: 43px;
+	top:39px;
+	width:160px;
+	height:720px;
+	z-index: 20
+}
+#derecha{
+	position: absolute;
+	right:45px;
+	top:39px;
+	width:160px;
+	height:720px;
+}
+
+/********************INSTRUCCIONES******************/
+#abrir_instrucciones{
+	position:absolute;
+	left: 340px;
+	top: 0px;
+	height: 30px;
+	width:120px;
+	border: 2px solid #000;
+	border-top: none;
+	background-color: #F0FFF0;
+	cursor: pointer;
+	text-align: center;
+	font-size: 15px;
+	z-index: 10;
+	visibility: hidden;
+	}
+
+#instrucciones{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	width: 780px;
+	height: 700px;
+	visibility: visible;
+	background-color: #F0FFF0;
+	border: 3px solid #000;
+	box-shadow:  0px 0px 5px 2px #000;
+	opacity: 1;
+	z-index: 30;
+}
+#accordion{
+	position: absolute;
+	top: 40px;
+	left: 15px;
+	width: 750px;
+	height: 650px;
+	overflow: auto;
+}
+.contenedor{
+	position: relative;
+	top: 20px;
+	max-height: 250px;
+	overflow: auto;
+	background-color: #BDCCB6;
+}
+#instrucciones input{
+	position:absolute;
+	left: 320px;
+	top: 0px;
+	height: 30px;
+	width:120px;
+	border: 2px solid #000;
+	border-top: none;
+	background-color: #ccc;
+	cursor: pointer;
+	text-align: center;
+	font-size: 15px;
+	z-index: 10;
+	color: red;
+}
+#accordion p{
+	font-size: 13px;
+}
+/*****************FIN INSTRUCCIONES*****************/
+
+#nombre_pais{
+	position: absolute;
+	background-color: #FEF7CF;
+	z-index: -1;
+	font-size: 20px;
+	color: #000;
+	border: 4px solid #FEF7CF;
+	border-bottom: 2px solid #FEF7CF;
+	box-shadow:  0px 0px 10px 4px #000;
+	visibility: hidden;
+}
+
+/*SLIDER*/
+#slider{
+	position: absolute;
+	top: 525px;
+	left: 10px;
+	width: 430px;
+	z-index: 20;
+	
+}
+
+body{
+	background:#F0FFF0;
+	
+}
+table{
+	position:relative;
+}
+#cuerpo{
+	position:relative;
+	border:1px solid #000;
+	border-top: none;
+	width:1080px;
+	height:720px;
+	background-color:#82cbe7;
+	overflow:hidden;
+	top: 37px;
+}
+#mapa_sin_nombre{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width:800px;
+	height:500px;
+	border:none;
+	border:none;
+	overflow:hidden;	
+}
+
+#mapa_nombres{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width:800px;
+	height:500px;
+	border:none;
+	overflow:hidden;
+	background-color: #82cbe7;
+	visibility: hidden;
+	z-index: 10;
+}
+
+
+
+
+/*********************Partida*/
+
+
+#partida{
+	position:absolute;
+	top:0px;
+	border:none;
+	right:0px;
+	width:300px;
+	height:700px;
+	overflow:hidden;
+}
+#numero_ronda{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	font-size: 18px;
+}
+
+#partida hr{
+	position: absolute;
+	top: 60px;
+	border: 1px solid #000;
+	width: 260px;
+	left: 28px;
+}
+.usuario{
+	position:absolute;
+	border:3px solid #000;
+	width:200px;
+	height:50px;
+	background-color:#FFFFFF;
+	overflow:hidden;
+	box-shadow: inset 0px 0px 20px 0px #8A6553;
+	z-index: 1;
+	cursor: pointer;	
+}
+.usuario .foto_usuario{
+	position:absolute;
+	top:5px;
+	left:5px;
+	border:1px dashed #000;
+	width:40px;
+	height:40px;
+}
+
+.usuario .nombre_usuario{
+	position:absolute;
+	top:20px;
+	left:50px;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#usuario_de{
+	top:10px;
+	left:5px;
+
+}
+#usuario_a{
+	bottom:10px;
+	left:5px;
+
+}
+.pais{
+	position:absolute;
+	border:2px solid #000;
+	width:200px;
+	height:40px;
+	background-color:#FFFFFF;
+	overflow:hidden;
+	box-shadow: inset 0px 0px 20px 0px #8A6553;
+	
+}
+
+.pais a{
+	position:absolute;
+	top:12px;	
+	left:10px;
+	font-size:18px;
+}
+#pais_de{
+	top:15px;
+	left:220px;
+	
+}
+#pais_a{
+	bottom:15px;
+	left:220px;
+}
+/*****************************Ataques*/
+
+
+#jugador1{
+	top:100px;
+	left:50px;
+}
+#jugador2{
+	top:170px;
+	left:50px;
+}
+#jugador3{
+	top:240px;
+	left:50px;
+}
+#jugador4{
+	top:310px;
+	left:50px;
+	
+}
+#jugador5{
+	top:380px;
+	left:50px;
+}
+#jugador6{
+	top:450px;
+	left:50px;
+}
+#selector_jugador{
+	position:absolute;
+	border:2px solid #000;
+	top:90px;
+	left:34px;
+	width:240px;
+	height:70px;
+	z-index:0;
+	overflow:hidden;
+	box-shadow: 0px 0px 15px 3px #000;
+}
+
+#accion{
+	position:absolute;
+	background-color:#FFFFFF;
+	border:1px solid #000;
+	top:5px;
+	right:45px;
+	width:285px;
+	height:180px;
+	overflow:hidden;
+	box-shadow:  0px 0px 10px 1px #CCC;
+	}
+.accion{
+	position:absolute;
+	width:285px;
+	height:180px;
+	box-shadow: inset 0px 0px 30px 0px #8A6553;
+}
+#ataque{
+	background:#FFF;
+	z-index:6;
+}
+#reagrupar{
+	background:#D2DACD;
+	z-index:5;
+}
+#informacion{
+	background-color:#D2DACD;
+	z-index:11;
+}
+
+/****************ESTADO DEL JUEGO*****************/
+#secuencia_juego{
+	position: absolute;
+	bottom:100px;
+	right:5px;
+	height: 69px;
+	width: 295px;
+}
+
+ul{
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+}
+ ul, li { 
+		margin:0;
+		padding:0;
+		cursor:pointer;
+		float:left;
+		
+		
+	}
+
+#secuencia_juego ul {
+		list-style:none;
+		display:inline-block;
+	}
+	
+#secuencia_juego li {
+		width:57px;
+		height:67px;
+		text-align: center;
+		opacity: .6;
+	}
+#secuencia_juego li img{
+		width:100%;
+		height:80%;
+	}
+#secuencia_juego li a{
+		position:relative;
+		font-size:12px;
+		top: -10px;
+	}
+
+
+/**************OPCIONES DE TARJETAS*****************/
+#informacion ul{
+	position: absolute;
+	z-index:11;
+	top: 92px;
+	left: 192px;
+	width: 80px;
+	height: 80px;
+	border: 2px solid #000;
+	background-color: #BDDCBD;
+	box-shadow: none;
+}
+#opciones_tarjeta{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+#informacion ul:hover #opciones_tarjeta{
+	visibility: hidden;
+}
+
+#informacion ul li{
+	position: relative;
+	display: block;
+	float: left;
+	visibility: hidden;
+}
+#informacion ul:hover li{
+	position: relative;
+	visibility: visible;
+	border: 1px solid #BDDCBD;
+	margin-left: 2px;
+	top: 35px;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+}
+#informacion ul:hover li img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#informacion ul:hover{
+	position: absolute;
+	background-color: #BDDCBD;
+	border: none;
+	top: 0px;
+	left:0px;
+	width: 298px;
+	height: 180px;
+	visibility: visible;
+	
+}
+#informacion ul:hover a{
+	font-size: 11px;
+	color: #000;
+	top: 5px;
+}
+#informacion ul li:hover{
+	background-color: #FFF;
+	border: 1px solid #000;
+
+}
+
+/************************************/
+#informacion .tarjeta{
+	position:relative;
+	float:left;
+	border:2px solid #000;
+	width:80px;
+	height:80px;
+	margin-left:8px;
+	margin-top:4px;
+}
+#informacion .tarjeta div{
+	position:relative;
+	width:50px;
+	height:50px;
+	margin-left:14px;
+	margin-top:5px;
+}
+#informacion .tarjeta a{
+	position:relative;
+	margin-bottom:0px;
+	margin-left:5px;	
+}
+#informacion input{
+	position:relative;
+	border: 1px solid #000;
+	background-color: #C0C0C0;
+	margin-left:7px;
+	margin-top:7px;
+	height: 70px;
+	width:80px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+	
+	/****************************************************************Ataque*/
+	#dados_atacante{
+		position:absolute;
+		top:2px;
+		left:10px;
+		width:180px;
+		height:75px;
+	}
+	#dados_atacante .dado{
+		margin-top:15px;
+	}
+	#dados_defensa{
+		position:absolute;
+		bottom:8px;
+		left:10px;
+		width:180px;
+		height:75px;
+	}
+	#dados_defensa .dado{
+		margin-top:30px;
+	}
+
+	.dado{
+		position:relative;
+		border:1px solid #000;
+		width:40px;
+		height:40px;
+		display:inline-block;
+		margin-left:10px;
+		
+	}
+		/*cubilete*/
+	#ataque img{
+		position:absolute;
+		/*list-style:none;
+		display:inline-block;
+		border: 1px solid #000;*/
+		cursor: pointer;
+		top:35px;
+		right:10px;
+		width:100px;
+		height:100px;
+		overflow:hidden;
+		font-size: 15px;
+		/*box-shadow: 0px 0px 1px 1px #000;*/
+		/*background-image:url(../fondos/cubilete.jpg);*/
+	}
+	
+	
+	
+	/******************************************************Fichas*/
+	.ficha{
+		position:absolute;
+		color:#EBEBEB;
+		width:31px;
+		height:29px;
+		border:1px solid #000;
+		text-align:center;
+
+		
+	}
+	#ficha0{/*yukon*/
+		top:100px;
+		left:65px;
+	}
+	#ficha1{/*canada*/
+		top:50px;
+		left:125px;
+	}
+	#ficha2{/*alasca*/
+		top:130px;
+		left:10px;
+	}
+	#ficha3{/*groenlandia*/
+		top:35px;
+		left:270px;
+	}
+	#ficha4{/*oregon*/
+		top:165px;
+		left:60px;
+	}
+	#ficha5{/*nueva york*/
+		top:135px;
+		left:150px;
+	}
+	#ficha6{/*terranova*/
+		top:120px;
+		left:190px;
+	}
+	#ficha7{/*labrador*/
+		top:90px;
+		left:205px;
+	}
+	#ficha8{/*california*/
+		top:175px;
+		left:110px;
+	}
+	#ficha9{/*mexico*/
+		top:210px;
+		left:180px;
+	}
+	/*******/
+	#ficha10{/*colombia*/
+		top:265px;
+		left:215px;
+	}
+	#ficha11{/*brasil*/
+		top:300px;
+		left:290px;
+	}	
+	#ficha12{/*peru*/
+		top:310px;
+		left:215px;
+	}	
+	#ficha13{/*chile*/
+		top:380px;
+		left:200px;
+	}
+	#ficha14{/*argentina*/
+		top:380px;
+		left:240px;
+	}	
+	#ficha15{/*uruguay*/
+		top:360px;
+		left:285px;
+	}
+	/*********/
+	#ficha16{/*sahara*/
+		top:350px;
+		left:420px;
+	}	
+	#ficha17{/*egipto*/
+		top:335px;
+		left:530px;
+	}
+	#ficha18{/*etiopia*/
+		top:370px;
+		left:505px;
+	}
+	#ficha19{/*zaire*/
+		top:400px;
+		left:465px;
+	}
+	#ficha20{/*sudafrica*/
+		top:430px;
+		left:510px;
+	}
+	#ficha21{/*madagascar*/
+		top:410px;
+		left:575px;
+	}
+	/*******/
+	#ficha22{/*islandia*/
+		top:85px;
+		left:365px;
+	}
+	#ficha23{/*gran bretaña*/
+		top:155px;
+		left:420px;
+	}
+	#ficha24{/*suecia*/
+		top:75px;
+		left:470px;
+	}
+	#ficha25{/*rusia*/
+		top:105px;
+		left:540px;
+	}
+	#ficha26{/*polonia*/
+		top:170px;
+		left:545px;
+	}
+	#ficha27{/*alemañia*/
+		top:180px;
+		left:505px;
+	}
+	#ficha28{/*italia*/
+		top:240px;
+		left:505px;
+	}
+	#ficha29{/*francia*/
+		top:195px;
+		left:460px;
+	}
+	#ficha30{/*españa*/
+		top:240px;
+		left:405px;
+	}
+	/******************/
+	#ficha31{/*aral*/
+		top:50px;
+		left:565px;
+	}
+	#ficha32{/*tartaria*/
+		top:15px;
+		left:580px;
+	}
+	#ficha33{/*taimir*/
+		top:30px;
+		left:620px;
+	}
+	#ficha34{/*siberia*/
+		top:60px;
+		left:640px;
+	}
+	#ficha35{/*camchatca*/
+		top:30px;
+		left:680px;
+	}
+	#ficha36{/*japon*/
+		top:60px;
+		left:750px;
+	}
+	#ficha37{/*iran*/
+		top:145px;
+		left:615px;
+	}
+	#ficha38{/*mongolia*/
+		top:100px;
+		left:635px;
+	}
+	#ficha39{/*china*/
+		top:150px;
+		left:715px;
+	}
+	#ficha40{/*gobi*/
+		top:135px;
+		left:660px;
+	}
+	#ficha41{/*turquia*/
+		top:195px;
+		left:600px;
+	}
+	#ficha42{/*israel*/
+		top:240px;
+		left:585px;
+	}
+	#ficha43{/*arabia*/
+		top:255px;
+		left:625px;
+	}
+	#ficha44{/*india*/
+		top:225px;
+		left:695px;
+	}
+	#ficha45{/*malasia*/
+		top:200px;
+		left:755px;
+	}
+	/*************/
+	#ficha46{/*sumatra*/
+		top:375px;
+		left:645px;
+	}
+	#ficha47{/*australia*/
+		top:430px;
+		left:730px;
+	}
+	#ficha48{/*borneo*/
+		top:335px;
+		left:710px;
+	}
+	#ficha49{/*java*/
+		top:335px;
+		left:750px;
+	}
+
+/*#finalizar{
+	position:absolute;
+	right:60px;
+	bottom:90px;
+	width:180px;
+	height:30px;
+	background-color:#fff;
+	border:1px solid #000;
+	box-shadow: inset 0px 0px 10px 0px #8A6553;
+	z-index: 30;
+	font-size: 20px;
+}*/
+
+marquee{
+	background-color:#FFF;
+	box-shadow: inset 0px 0px 20px 0px #8A6553;
+}
+	
+/**************ICONOS************************/
+
+	
+	

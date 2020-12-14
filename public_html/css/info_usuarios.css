@@ -1,0 +1,116 @@
+/*INFORMACION DE LOS USUARIOS*/
+
+#fondo_info_usuario{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+	background-color: #82cbe7;
+	z-index: 2;
+	visibility: hidden;
+	opacity: 0.9;
+    filter:alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+}
+#juego_terminado{
+	position: absolute;
+	top: 23px;
+	left: 45px;
+	width: 700px;
+	height: 450px;
+	border: 3px solid #000;
+	background-color: #D2DACD;
+	visibility: hidden;
+	box-shadow: 0px 0px 20px 1px #000;
+	z-index: 2;
+}
+#info_usuarios{
+	position: absolute;
+	top: 23px;
+	left: 45px;
+	width: 700px;
+	height: 450px;
+	border: 3px solid #000;
+	background-color: #D2DACD;
+	visibility: hidden;
+	box-shadow: 0px 0px 20px 1px #000;
+	z-index: 0;
+	opacity: 0.0;
+    filter:alpha(opacity=0);
+    -moz-opacity:0.0;
+    -khtml-opacity: 0.0;
+}
+#contenedor_tarjetas{
+	position: absolute;
+	top: 100px;
+	left: 180px;
+	width: 500px;
+	height: 100px;
+	background-color: #D2DACD;
+}
+.info_tarjetas{
+	position: relative;
+	top: 10px;
+	left: 25px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #000;
+	box-shadow: inset 0px 0px 20px 0px #8A6553;
+	background-color: #FFF;
+
+}
+.info_tarjetas marquee{
+	position: absolute;
+	bottom: 10px;
+}
+
+#info_usuarios_ronda {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+#info_usuarios_cantidad_paises{
+	position: absolute;
+	top: 45px;
+	left: 20px;	
+}
+#info_usuarios_cantidad_cambios{
+	position: absolute;
+	top: 70px;
+	left: 20px;	
+}
+
+#info_usuarios_taerjetas{
+	position: absolute;
+	font-size: 30px;
+	top: 130px;
+	left: 30px;	
+}
+#info_usuarios_contenedor_objetivo{
+	position: absolute;
+	top: 220px;
+	left: 180px;
+	width: 500px;
+	height: 200px;
+	border: 1px solid #000;
+	background-color: #F6F6F6;
+	
+}
+#info_usuarios_objetivo{
+	position: absolute;
+	font-size: 30px;
+	top: 260px;
+	left: 30px;	
+}
+#info_usuarios_gane{
+	position:absolute;
+	border: 2px solid #000;
+	left:15px;
+	top:345px;
+	width:150px;
+	height: 75px;
+	cursor: pointer;
+	font-size: 20px;
+}
